@@ -13,10 +13,9 @@
         }
     </style>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Quản lý sản phẩm</a>
+        <a style="margin-left: 20px" class="navbar-brand" href="#">Quản lý sản phẩm</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,12 +24,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/webbanhang/Product/">Danh sách sản phẩm</a>
+                    <a style="white-space: nowrap;" class="nav-link" href="/webbanhang/Product/">Danh sách sản phẩm</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/webbanhang/Product/add">Thêm sản phẩm</a>
+                    <a style="white-space: nowrap;" class="nav-link" href="/webbanhang/Product/add">Thêm sản phẩm</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item-login">
                     <?php
                         if (SessionHelper::isLoggedIn()) {
                             echo "<a class='nav-link'>" . $_SESSION['username'] . "</a>";
@@ -53,6 +52,13 @@
     <div class="container mt-4">
         <!-- Nội dung chính của trang sẽ đặt ở đây -->
     </div>
+    <style>
+     .nav-item-login{
+        margin-left: 900px;
+        background-color: #0dcaf0;
+        border-radius: 4px;
+     }
+    </style>
 </body>
 
 </html>

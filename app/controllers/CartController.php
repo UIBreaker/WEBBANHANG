@@ -1,3 +1,4 @@
+
 // Trong file app/controllers/CartController.php
 
 public function updateQuantity() {

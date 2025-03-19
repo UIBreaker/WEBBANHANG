@@ -1,64 +1,53 @@
-<footer class="bg-light text-center text-lg-start mt-4">
-<div class="container p-4">
-<div class="row">
-<!-- Cột thông tin liên hệ -->
-<div class="col-lg-6 col-md-12 mb-4">
-<h5 class="text-uppercase">Quản lý sản phẩm</h5>
-<p>
-Hệ thống quản lý sản phẩm giúp bạn theo dõi và cập nhật thông tin
-sản phẩm dễ dàng.
-</p>
+
+
+<!-- Bootstrap Footer -->
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Thông tin</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Trang chủ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tính năng</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Giá cả</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Câu hỏi thường gặp</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Về chúng tôi</a></li>
+        </ul>
+      </div>
+      <div  class="col-md-5 offset-md-1 mb-3">
+        <form  class="formdangkynhantin">
+          <h5>Đăng ký nhận tin</h5>
+          <p>Nhận thông tin mới nhất từ chúng tôi.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <input  type="email" class="form-control" placeholder="Email của bạn">
+            <button  class="btn btn-primaryDK" type="submit">Đăng ký</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2024 Quản lý sản phẩm. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fab fa-instagram"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <style>
+    .form-control{
+    height: 61px;
+    }
+
+    .btn-primaryDK{
+       white-space: nowrap;
+       height: 61px;
+       width: 100px;
+       background-color: #007bff;
+       margin-left: 5px;
+    }
+  </style>
 </div>
-<!-- Cột liên kết nhanh -->
-<div class="col-lg-3 col-md-6 mb-4">
-<h5 class="text-uppercase">Liên kết nhanh</h5>
-<ul class="list-unstyled mb-0">
-<li><a href="/WEBBANHANG/Product/" class="text-dark">Danh sách sản
-phẩm</a></li>
-<li><a href="/WEBBANHANG/Product/add" class="text-dark">Thêm sản
-phẩm</a></li>
-</ul>
-</div>
-<!-- Cột mạng xã hội -->
-<h5 class="text-uppercase">Kết nối với chúng tôi</h5>
-<a href="#" class="text-dark mr-3"><i class="fab fa-facebookf"></
-i></a>
-<a href="#" class="text-dark mr-3"><i class="fab fa-twitter"></i></a>
-<a href="#" class="text-dark mr-3"><i class="fab fainstagram"></
-i></a>
-</div>
-</div>
-</div>
-<!-- Dòng bản quyền -->
-<div class="text-center p-3 bg-dark text-white">
-© 2025 Quản lý sản phẩm. All rights reserved.
-</div>
-<style>
 
-    footer {
-    font-family: Arial, sans-serif;
-}
-
-footer h5 {
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-footer .bg-dark {
-    background-color: #343a40 !important;
-}
-
-
-</style>
-</footer>
 <!-- Font Awesome Icons -->
-<script src="https://kit.fontawesome.com/a076d05399.js"
-crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
